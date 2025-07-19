@@ -21,7 +21,8 @@ Whether you want to send a "secret" note to a friend or simply explore how early
 ## Technology Stack
 
 * **Language:** Java
-* **JDK:** [Java JDK x] *(e.g., Java JDK 17 or Java JDK 21)*
+* **JDK:** Java JDK 
+* **IDE:** VS Code
 
 ## Getting Started
 
@@ -48,14 +49,14 @@ Follow these steps to get the project up and running on your local machine.
 
 1.  **Compile the Java code:**
     ```bash
-    javac CaesarCipher.java # Assuming your main Java file is named CaesarCipher.java
+    javac encrypt.java # Assuming your main Java file is named encrypt.java
     ```
 2.  **Run the compiled program:**
     ```bash
-    java CaesarCipher # Assuming your main class is named CaesarCipher
+    java encrypt # Assuming your main class is named encrypt
     ```
 
-### Usage
+## Usage
 
 Once the program is running, you will be prompted to choose an action:
 
@@ -110,12 +111,8 @@ Where:
 
 This project is a personal learning endeavor, but feel free to explore, fork, and experiment with the code. If you have suggestions or find issues, you can open an issue on this repository.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE.md). *(You'll need to create a `LICENSE.md` file in your repository with the MIT License text if you choose this.)*
 
 ## Contact
 
 * **GitHub:** [Abhinavan2004](https://github.com/Abhinavan2004)
-* **Email:** [Your Email (Optional)]
-* **LinkedIn:** [Your LinkedIn Profile URL (Optional)]
+* **Email:** abhinavaa980@gmail.com
