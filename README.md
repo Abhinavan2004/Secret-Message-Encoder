@@ -18,11 +18,10 @@ Whether you want to send a "secret" note to a friend or simply explore how early
 * **User-Friendly Interface:** Interactive command-line prompts for easy input and output.
 * **Case Preservation:** Maintains the original casing of alphabetic characters.
 * **Non-Alphabetic Character Handling:** Non-letters (numbers, spaces, symbols) remain unchanged.
-
 ## Technology Stack
 
-* **Language:** [PYTHON/JAVA] *(Please specify which language you used, e.g., Python or Java)*
-* **Runtime/JDK:** [Python 3.x / Java JDK x] *(e.g., Python 3.9 or Java JDK 17)*
+* **Language:** Java
+* **JDK:** [Java JDK x] *(e.g., Java JDK 17 or Java JDK 21)*
 
 ## Getting Started
 
@@ -30,11 +29,9 @@ Follow these steps to get the project up and running on your local machine.
 
 ### Prerequisites
 
-* **[Python/Java]**:
-    * Ensure you have the correct version installed for the language you used (e.g., Python 3.x or Java JDK x) or newer.
-    * You can download it from:
-        * For Python: `https://www.python.org/downloads/`
-        * For Java: `https://www.oracle.com/java/technologies/downloads/`
+* **Java Development Kit (JDK)**:
+    * Ensure you have a Java JDK (e.g., JDK 17 or newer) installed.
+    * You can download it from: `https://www.oracle.com/java/technologies/downloads/`
 
 ### Installation
 
@@ -49,28 +46,43 @@ Follow these steps to get the project up and running on your local machine.
 
 ### How to Run
 
-#### If you used [Python]:
-
-1.  **Execute the script:**
-    ```bash
-    python caesar_cipher.py # Adjust filename if different, e.g., main.py
-    ```
-
-#### If you used [Java]:
-
 1.  **Compile the Java code:**
     ```bash
-    javac CaesarCipher.java # Adjust filename if different, e.g., Main.java
+    javac CaesarCipher.java # Assuming your main Java file is named CaesarCipher.java
     ```
 2.  **Run the compiled program:**
     ```bash
-    java CaesarCipher # Adjust class name if different
+    java CaesarCipher # Assuming your main class is named CaesarCipher
     ```
 
 ### Usage
 
 Once the program is running, you will be prompted to choose an action:
 
+Caesar Cipher Program (Java)
+Do you want to (E)ncrypt, (D)ecrypt, or (Q)uit?
+
+
+* Enter `E` to **Encrypt** a message.
+* Enter `D` to **Decrypt** a message.
+* Enter `Q` to **Quit** the program.
+
+You will then be asked for the message and the integer shift key.
+
+**Example Interaction:**
+
+Do you want to (E)ncrypt, (D)ecrypt, or (Q)uit? E
+Enter the message to encrypt: HELLO WORLD
+Enter the shift key (an integer): 3
+Encrypted message: KHOOR ZRUOG
+
+Do you want to (E)ncrypt, (D)ecrypt, or (Q)uit? D
+Enter the message to decrypt: KHOOR ZRUOG
+Enter the shift key (an integer): 3
+Decrypted message: HELLO WORLD
+
+Do you want to (E)ncrypt, (D)ecrypt, or (Q)uit? Q
+Exiting program.
 
 
 ## How the Caesar Cipher Works
@@ -88,7 +100,7 @@ Where:
 
 ## Future Enhancements (Ideas)
 
-* **GUI (Graphical User Interface):** Implement a desktop application using libraries like Tkinter (Python) or Swing/JavaFX (Java).
+* **GUI (Graphical User Interface):** Implement a desktop application using libraries like Swing or JavaFX.
 * **Advanced Ciphers:** Add support for other classical ciphers (e.g., Vigenere Cipher, Atbash Cipher).
 * **File I/O:** Allow users to encrypt/decrypt text directly from files.
 * **Brute-Force Attack:** Include an option to attempt brute-force decryption for known weak ciphers like the Caesar cipher.
